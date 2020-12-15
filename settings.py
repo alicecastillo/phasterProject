@@ -3,7 +3,10 @@
 #init all globals
 
 def init(urlString): 
-    global url, jsonFile, runNum
+    global url, jsonFile, runNum, runTimes, badAccessions
     url = urlString
     jsonFile = "phaster_io_output.txt"
     runNum = 33 #CHANGE THIS BACK
+    runTimes = 0
+    badAccessions = []
+    pausedAccessions = []
